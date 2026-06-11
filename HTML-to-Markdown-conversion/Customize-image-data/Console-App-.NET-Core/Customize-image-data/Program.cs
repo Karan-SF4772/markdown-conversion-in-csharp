@@ -37,7 +37,7 @@ namespace Customize_image_data
         {
             //Retrieve the image from the local machine file path and use it.
             if (args.Uri == "Road-550.png")
-                args.ImageStream = new FileStream(Path.GetFullPath(@"../../../Data/" + args.Uri), FileMode.Open);
+                args.ImageStream = new FileStream(Path.GetFullPath(@"../../../Data/Mountain-200.png"), FileMode.Open);
             //Retrieve the image from the website and use it.
             else if (args.Uri.StartsWith("https://"))
             {
